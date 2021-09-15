@@ -1,6 +1,6 @@
 
 # Instructions
-Fork and checkout the assignment repository. Create files as described below. Commit and push your changes. Make AT LEAST three substantive commits.
+Fork and checkout the assignment repository. (The forking will happen for you automatically if your repo was made through GitHub Classroom.) Create files as described below. Commit and push your changes. Make AT LEAST three substantive commits.
 
 In Canvas, submit a link to your GitHub repository.
 
@@ -13,7 +13,7 @@ In Canvas, submit a link to your GitHub repository.
 
 * Three separate HTML pages, including `index.html`. Home page MUST be named `index.htm` or `index.html` (Either extension is fine for HTML files.)
 
-* All pages have a common nav bar (on the top or left) that links the three pages. Pages use the same base style sheet(s), and have a common look and feel.
+* All pages have a common nav bar (on the top or left) that links the three pages. You MUST use a Bootstrap-style navbar. Pages use the same base style sheet(s), and have a common look and feel.
 
 * One page shows user information (should be fake), showing name, country or origin, birthdate, age, email address (clickable `mailto:` link that opens an email browser!), and a (fake) profile picture of the (fake) user. See https://randomuser.me for examples.
 
