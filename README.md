@@ -21,10 +21,14 @@ In Canvas, submit a link to your GitHub repository.
 
 * On the same page as your table of data, include a `<form>`suitable for adding rows to the table. (It doesn't need to *do* anything yet.) Include one input element for each column in the table. Use the appropriate input type. Format the form using an appropriate Bootstrap recipe.
 
-* Use [Bootstrap (>= v4)][bootstrap] on all pages. On all pages, also include a custom style sheet that overrides *at least* the following Bootstrap defaults: background color, text color, header color, link color.
+* Use the current production version of [Bootstrap][bootstrap] on all pages. On all pages, also include a custom style sheet that overrides *at least* the following Bootstrap defaults: background color, text color, header color, link color.
 
 * In your custom CSS file, also write at least one declaration for an element by CSS class and one declaration for an element by id. Use those elements in your pages.
 
+* Do NOT use `<style>` tags or the `style=""` attribute to apply CSS. All CSS should be in your custom CSS file.
+
+* Do NOT use deprecated HTML tags like `<center>` or `<font>`. This sort of styling information (and any `<b>bold</b>`, `<i>italics</i>`) should be accomplished via CSS instead. Use CSS margin or padding declarations instead of multiple `<br>` tags for vertical spacing.
+
 * The pages should include at least two images (overall). Show the image thumbnails on the page. Link the thumbnails to larger versions of the same images. Include citation or attribution for each image. (This is _**NOT**_ `alt` text, and should be visible to anyone viewing the page.)
 
-[bootstrap]:https://getbootstrap.com/docs/4.5/getting-started/introduction/
+[bootstrap]:https://getbootstrap.com/docs/
